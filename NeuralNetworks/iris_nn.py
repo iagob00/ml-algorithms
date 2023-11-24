@@ -11,4 +11,4 @@ nn = MLPClassifier(max_iter= 1000,
                    activation= 'logistic')
 
 nn.fit(inpt, target)
-nn.predict([[5, 3.1, 4, 2.5]])
+print (nn.predict([[5, 3.1, 4, 2.5]]))
